@@ -2,8 +2,8 @@ export default function HomePage() {
   return (
     <div className="no-select flex flex-col w-full h-full">
       <header className="pl-0 pt-4 pb-4 mb-4 border border-black border-t-0 border-l-0 border-r-0">
-        <p className="text-lg font-semibold">enbao</p>
-        <p className="text-sm">personal website.</p>
+        <p className="text-base lg:text-lgfont-semibold">enbao</p>
+        <p className="text-xs lg:text-sm">personal website.</p>
       </header>
       <div className="flex flex-grow text-3xs lg:text-2xs">
 

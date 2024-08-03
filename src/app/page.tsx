@@ -1,8 +1,10 @@
+import ProjectsList from '../components/projects';
+
 export default function HomePage() {
   return (
     <div className="no-select flex flex-col w-full h-full">
       <header className="pl-0 pt-4 pb-4 mb-4 border border-black border-t-0 border-l-0 border-r-0">
-        <p className="text-base lg:text-lgfont-semibold">enbao</p>
+        <p className="text-base lg:text-lg font-semibold">enbao</p>
         <p className="text-xs lg:text-sm">personal website.</p>
       </header>
       <div className="flex flex-grow text-3xs lg:text-2xs">
@@ -52,8 +54,6 @@ export default function HomePage() {
             <h2 className="font-semibold">Projects</h2>
           </div>
           <div className="mb-4 border border-black border-t-0 p-2">
-            <p> 
-            </p>
           </div>
         </main>
       </div>

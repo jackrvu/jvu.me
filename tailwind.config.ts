@@ -8,10 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'custom-gray': '#222222', // Replace with your desired hex code
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'dot-pattern': 'radial-gradient(circle, #888888 0.5px, transparent 0.5px)',
+      },
+      backgroundSize: {
+        'dot-pattern': '5px 5px', // Adjust the size here
+      },
+      fontSize: {
+        '2xs': '0.70rem', // what I'm using
       },
     },
   },

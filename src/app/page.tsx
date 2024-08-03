@@ -34,7 +34,7 @@ export default function HomePage() {
             <h2 className="font-semibold">About me</h2>
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
-            <p className="tracking-very-tight">howdy! i'm studying at st. john's school in houston, tx with an interest in math (abstract algebra, model theory) and computer science (rl). i enjoy listening to music (jazz, breakcore, psych rock), reading (nabokov, steinbeck, nietzsche), and running.</p>
+            <p className="tracking-very-tight">howdy! im studying at st. johns school in houston, tx with an interest in math (abstract algebra, model theory) and computer science (rl). i enjoy listening to music (jazz, breakcore, psych rock), reading (nabokov, steinbeck, nietzsche), and running.</p>
           </div>
 
           <div className="border border-black p-2">
@@ -53,9 +53,8 @@ export default function HomePage() {
             <h2 className="font-semibold">Projects</h2>
           </div>
           <div className="mb-4 border border-black border-t-0 p-2">
-            <p>✷ problem solving initiative (psi) [github]
-            ✷ cordgrass wave reduction [github][preprint] ✷ metachronal propulsion
-              [github][paper] ✷ terminal-based website [github] ✷ pds projects [github] ✷ gradient descent [github]
+            <p> problem solving initiative (psi) [github] cordgrass wave reduction [github][preprint] metachronal propulsion
+              [github][paper] terminal-based website [github] pds projects [github] gradient descent [github]
             </p>
           </div>
         </main>

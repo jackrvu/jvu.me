@@ -10,3 +10,13 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.custom-width {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .custom-width {
+    width: 50%;
+  }
+}

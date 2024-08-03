@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${mono.className} bg-custom-gray  bg-dot-pattern bg-dot-pattern min-h-screen flex justify-center`}>
-        <div className="bg-white w-full md:w-[50vw] lg:w-[50vw] h-full p-4 flex flex-col mt-12"> 
+        <div className="bg-white w-full md:w-[50vw] lg:w-[50vw] h-full p-4 flex flex-col mt-12 custom-width"> 
           {children}
         </div>
       </body>

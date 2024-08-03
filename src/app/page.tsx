@@ -5,7 +5,7 @@ export default function HomePage() {
         <p className="text-lg font-semibold">enbao</p>
         <p className="text-sm">personal website.</p>
       </header>
-      <div className="flex flex-grow text-2xs">
+      <div className="flex flex-grow text-3xs md:text-2xs lg:text-2xs">
 
         <aside className="w-1/3 h-full mr-2">
           <div className="border border-black p-2">

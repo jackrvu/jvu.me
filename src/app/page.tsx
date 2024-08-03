@@ -20,7 +20,6 @@ export default function HomePage() {
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
             <ul>
-              <li><a href="https://x.com/fast4ea" className="hover:text-fuchsia-400">x.com/fast4ea</a></li>
               <li><a href="https://github.com/ecao77" className="hover:text-fuchsia-400">github.com/ecao77</a></li>
               <li><a href="mailto:ecao787@gmail.com" className="hover:text-fuchsia-400">ecao787@gmail.com</a></li>
             </ul>
@@ -34,7 +33,7 @@ export default function HomePage() {
             <h2 className="font-semibold">About me</h2>
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
-            <p className="tracking-very-tight">howdy! im studying at st. johns school in houston, tx with an interest in math (abstract algebra, model theory) and computer science (rl). i enjoy listening to music (jazz, breakcore, psych rock), reading (nabokov, steinbeck, nietzsche), and running.</p>
+            <p className="tracking-very-tight">howdy!</p>
           </div>
 
           <div className="border border-black p-2">
@@ -53,8 +52,7 @@ export default function HomePage() {
             <h2 className="font-semibold">Projects</h2>
           </div>
           <div className="mb-4 border border-black border-t-0 p-2">
-            <p> problem solving initiative (psi) [github] cordgrass wave reduction [github][preprint] metachronal propulsion
-              [github][paper] terminal-based website [github] pds projects [github] gradient descent [github]
+            <p> 
             </p>
           </div>
         </main>

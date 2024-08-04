@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ProjectsList from '../components/projects';
 import Pokemon from '../components/pokemon';
 
@@ -11,6 +12,7 @@ export default function HomePage() {
       <div className="flex flex-grow text-3xs lg:text-2xs">
 
         <aside className="w-1/3 h-full mr-2">
+        
           <div className="border border-black p-2">
             <h2 className="font-semibold">Status</h2>
           </div>
@@ -44,7 +46,11 @@ export default function HomePage() {
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
             <ul>
-              <li>24-07-28 :: specs</li>
+              <li>
+                <Link href="/posts/specs" className="hover:text-green-400">
+                  24-08-04 :: specs
+                </Link>
+              </li>
               <li>24-07-23 :: dreams</li>
               <li>24-07-23 :: proofs</li>
               <li>24-07-14 :: battles</li>

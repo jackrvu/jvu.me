@@ -9,6 +9,7 @@ interface Project {
     site?: string;
     paper?: string;
     prezi?: string;
+    writeup?: string;
   };
 }
 
@@ -42,14 +43,14 @@ const projects: Project[] = [
     name: "terminal website",
     description: "pet project. a personal website that functions like a terminal",
     links: { 
-        github: "https://github.com/yourusername/terminal-website" 
+        github: "https://github.com/yourusername/terminal-website"
     }
   },
   {
     name: "pds projects",
     description: "projects from my 11th grade Programming Data Structures (and Algorithms) class.",
     links: { 
-        github: "https://github.com/yourusername/pds-projects" 
+        github: "https://github.com/yourusername/pds-projects"
     }
   },
   {
@@ -57,7 +58,7 @@ const projects: Project[] = [
     description: "implementation and visualization of the gradient descent algorithm. presented in multivariable class and ross '24.",
     links: {
         github: "https://github.com/yourusername/gradient-descent",
-        prezi: "https://www.overleaf.com/read/vjcgrzrnmxgq#6780d6"
+        prezi: "https://fragrant-lake-8762.ecao787.workers.dev"
     }
   }
 ];

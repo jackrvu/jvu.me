@@ -1,4 +1,5 @@
 import ProjectsList from '../components/projects';
+import Pokemon from '../components/pokemon';
 
 export default function HomePage() {
   return (
@@ -14,7 +15,7 @@ export default function HomePage() {
             <h2 className="font-semibold">Status</h2>
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
-            <p>BALL</p>
+            <Pokemon />
           </div>
           
           <div className="border border-black p-2">
@@ -43,10 +44,10 @@ export default function HomePage() {
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
             <ul>
-              <li>24-07-28 :: supplements</li>
-              <li>24-07-23 :: homelab</li>
-              <li>24-07-23 :: new website</li>
-              <li>24-07-14 :: digital gardens</li>
+              <li>24-07-28 :: specs</li>
+              <li>24-07-23 :: dreams</li>
+              <li>24-07-23 :: proofs</li>
+              <li>24-07-14 :: battles</li>
             </ul>
           </div>
 

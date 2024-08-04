@@ -21,6 +21,15 @@ const config: Config = {
         '2xs': '0.70rem', // what I'm using
         '3xs': '0.55rem',
       },
+      animation: {
+        'pokemon-pixel-move': 'pokemon-pixel-move 0.8s steps(2, end) infinite',
+      },
+      keyframes: {
+        'pokemon-pixel-move': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-2px)' },
+        }
+      }
     },
   },
   plugins: [],

@@ -34,7 +34,7 @@ export default function Specs() {
             <h2 className="font-semibold">Work</h2>
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
-            <p>laptop: macbook air, m1.</p>
+            <p>computer: macbook, m1 chip.</p>
             <p>keyb: womier aluminum sk71.</p>
             <p>math: bic round stic, blue.</p>
             <p>write: zebra sarasa, black.</p>
@@ -44,11 +44,11 @@ export default function Specs() {
             <h2 className="font-semibold">Music</h2>
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
-            <p>clarinet: buffet r13 b66.</p>
-            <p>mouthpiece: m13 lyre. </p>
-            <p>ligature: bonade inverted.</p>
-            <p>reeds: vandoren v12 3.5+.</p>
-            <p>sax: yamaha alto 200adii.</p>
+            <p>clarinet: buffet, r13 b66.</p>
+            <p>mouthpiece: m13 lyre. b40. </p>
+            <p>ligature: inverted bonade.</p>
+            <p>reeds: vandoren v12 3.5+s.</p>
+            <p>alto sax: yamaha, 200adii.</p>
           </div>
         </main>
       </div>

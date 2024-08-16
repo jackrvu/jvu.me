@@ -26,8 +26,7 @@ const projects: Project[] = [
   {
     name: "metachronal propulsion",
     description: "a paper on the efficiency of metachronal movement. accepted to Fluids in dec 2023.",
-    links: { 
-      github: "https://github.com/yourusername/metachronal-propulsion",
+    links: {
       paper: "https://www.mdpi.com/2311-5521/9/1/2"
     }
   },
@@ -43,21 +42,21 @@ const projects: Project[] = [
     name: "terminal website",
     description: "pet project. a personal website that functions like a terminal",
     links: { 
-        github: "https://github.com/yourusername/terminal-website"
+        github: "https://github.com/ecao77/term-web"
     }
   },
   {
     name: "pds projects",
     description: "projects from my 11th grade Programming Data Structures (and Algorithms) class.",
     links: { 
-        github: "https://github.com/yourusername/pds-projects"
+        github: "https://github.com/ecao77/pds-projects"
     }
   },
   {
     name: "gradient descent",
     description: "implementation and visualization of the gradient descent algorithm. presented in multivariable class and ross '24.",
     links: {
-        github: "https://github.com/yourusername/gradient-descent",
+        github: "https://github.com/Nobbertins/MVCFinal",
         prezi: "https://fragrant-lake-8762.ecao787.workers.dev"
     }
   }

@@ -51,9 +51,6 @@ export default function HomePage() {
                   24-08-04 :: specs
                 </Link>
               </li>
-              <li>24-07-23 :: dreams</li>
-              <li>24-07-23 :: proofs</li>
-              <li>24-07-14 :: battles</li>
             </ul>
           </div>
 
@@ -61,6 +58,7 @@ export default function HomePage() {
             <h2 className="font-semibold">Projects</h2>
           </div>
           <div className="mb-4 border border-black border-t-0 p-2">
+            <ProjectsList />
           </div>
         </main>
       </div>

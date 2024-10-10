@@ -39,6 +39,13 @@ const projects: Project[] = [
     }
   },
   {
+    name: "mav hub",
+    description: "school app that displays schedule, lunch menu, and house points. 110000+ uses/month.",
+    links: { 
+        github: "https://github.com/SMPhoenicx/The-Mav-Hub"
+    }
+  },
+  {
     name: "terminal website",
     description: "pet project. a personal website that functions like a terminal",
     links: { 

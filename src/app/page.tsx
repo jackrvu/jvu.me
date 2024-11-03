@@ -26,7 +26,7 @@ export default function HomePage() {
           <div className="mb-2 border border-black border-t-0 p-2">
             <ul>
               <li><a href="https://github.com/ecao77" className="hover:text-fuchsia-400">github.com/ecao77</a></li>
-              <li><a href="mailto:ecao787@gmail.com" className="hover:text-fuchsia-400">ecao787@gmail.com</a></li>
+              <li><a href="mailto:ecao787@gmail.com" className="hover:text-fuchsia-400">enbaocao@gmail.com</a></li>
             </ul>
           </div>
 
@@ -56,6 +56,11 @@ export default function HomePage() {
 
           <div className="border border-black p-2">
             <h2 className="font-semibold">Projects</h2>
+          </div>
+          <div className="mb-4 border border-black border-t-0 p-2">
+          </div>
+          <div className="border border-black p-2">
+            <h2 className="font-semibold">Lecture Notes</h2>
           </div>
           <div className="mb-4 border border-black border-t-0 p-2">
           </div>

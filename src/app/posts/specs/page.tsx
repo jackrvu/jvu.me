@@ -27,7 +27,7 @@ export default function Specs() {
             <h2 className="font-semibold">Specs</h2>
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
-            <p>ill share my setups: for work, for music.</p>
+            <p>my setups: for work, for music.</p>
           </div>
 
           <div className="border border-black p-2">

@@ -50,9 +50,11 @@ export default function HomePage() {
                 <Link href="/posts/prose" className="hover:text-green-400">
                   25-00-00 :: one
                 </Link>
+
                 <Link href="/posts/prose" className="hover:text-green-400">
                   25-00-00 :: two
                 </Link>
+                
                 <Link href="/posts/prose" className="hover:text-green-400">
                   25-00-00 :: three
                 </Link>

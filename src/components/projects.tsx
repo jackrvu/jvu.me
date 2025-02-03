@@ -46,13 +46,6 @@ const projects: Project[] = [
     }
   },
   {
-    name: "terminal website",
-    description: "pet project. a personal website that functions like a terminal",
-    links: { 
-        github: "https://github.com/ecao77/term-web"
-    }
-  },
-  {
     name: "pds projects",
     description: "projects from my 11th grade Programming Data Structures (and Algorithms) class.",
     links: { 

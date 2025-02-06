@@ -46,19 +46,21 @@ export default function HomePage() {
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
             <ul>
-              <li>
-                <Link href="/posts/prose" className="hover:text-green-400">
-                  25-00-00 :: one
-                </Link>
-
-                <Link href="/posts/prose" className="hover:text-green-400">
-                  25-00-00 :: two
-                </Link>
-                
-                <Link href="/posts/prose" className="hover:text-green-400">
-                  25-00-00 :: three
-                </Link>
-              </li>
+            <li>
+              <Link href="/posts/prose" className="hover:text-green-400">
+                25-00-00 :: one
+              </Link>
+            </li>
+            <li>
+              <Link href="/posts/prose" className="hover:text-green-400">
+                25-00-00 :: two
+              </Link>
+            </li>
+            <li>
+              <Link href="/posts/prose" className="hover:text-green-400">
+                25-00-00 :: three
+              </Link>
+            </li>
             </ul>
           </div>
 

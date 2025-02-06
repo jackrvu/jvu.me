@@ -23,6 +23,6 @@ html, body {
 
 @media (min-width: 1000px) {
   .custom-width {
-    width: 30%;
+    width: 40%;
   }
 }

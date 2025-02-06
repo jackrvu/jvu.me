@@ -7,7 +7,7 @@ export default function HomePage() {
     <div className="no-select flex flex-col w-full h-full">
       <header className="pl-0 pt-4 pb-4 mb-4 border border-black border-t-0 border-l-0 border-r-0">
         <p className="text-base lg:text-lg font-semibold">enbao</p>
-        <p className="text-xs lg:text-sm">personal website.</p>
+        <p className="text-xs lg:text-sm">gradient stepper</p>
       </header>
       <div className="flex flex-grow text-3xs lg:text-2xs">
 
@@ -26,7 +26,7 @@ export default function HomePage() {
           <div className="mb-2 border border-black border-t-0 p-2">
             <ul>
               <li><a href="https://github.com/ecao77" className="hover:text-fuchsia-400">github.com/enbaocao</a></li>
-              <li><a href="mailto:ecao787@gmail.com" className="hover:text-fuchsia-400">enbaocao[at]gmail.com</a></li>
+              <li><a href="mailto:ecao787@gmail.com" className="hover:text-indigo-400">enbaocao[at]gmail.com</a></li>
             </ul>
           </div>
 

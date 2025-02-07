@@ -69,11 +69,6 @@ export default function HomePage() {
           </div>
           <div className="mb-4 border border-black border-t-0 p-2">
           </div>
-          <div className="border border-black p-2">
-            <h2 className="font-semibold">Lecture Notes</h2>
-          </div>
-          <div className="mb-4 border border-black border-t-0 p-2">
-          </div>
         </main>
       </div>
     </div>

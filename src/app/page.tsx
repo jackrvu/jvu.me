@@ -16,8 +16,8 @@ export default function HomePage() {
           <div className="border border-black p-2">
             <h2 className="font-semibold">Status</h2>
           </div>
-          <div className="mb-2 border border-black border-t-0 p-2">
-            <Pokemon /> pivoting!
+          <div className="mb-2 border border-black border-t-0 p-2 flex items-center gap-2">
+            pivoting! <Pokemon /> 
           </div>
           
           <div className="border border-black p-2">
@@ -25,7 +25,7 @@ export default function HomePage() {
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
             <ul>
-              <li><a href="https://github.com/enbaocao" className="hover:text-fuchsia-400">github[dot]com[slash]enbaocao</a></li>
+              <li><a href="https://github.com/enbaocao" className="hover:text-fuchsia-400">github.com/enbaocao</a></li>
               <li><a href="mailto:enbaocao@gmail.com" className="hover:text-indigo-400">enbaocao[at]gmail[dot]com</a></li>
             </ul>
           </div>

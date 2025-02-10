@@ -26,10 +26,10 @@ export default function Specs() {
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
             <p className="italic mb-4">my setups! how I work and focus and relax.</p>
-            <p className="mb-4">computer: m1 macbook. 1 lambda gh200 for heavy machinery.</p>
-            <p className="mb-4">keeb: womier aluminum sk71 or the mac butterfly keyboard.</p>
-            <p className="mb-4">math: blue bic pen on blank printer paper. classic combo.</p>
-            <p className="mb-4">writing: black zebra sarasa on campus a5 ringed notebook.</p>
+            <p>computer: m1 macbook. 1 lambda gh200 for heavy machinery.</p>
+            <p>keeb: womier aluminum sk71 or the mac butterfly keyboard.</p>
+            <p>math: blue bic pen on blank printer paper. classic combo.</p>
+            <p>writing: black zebra sarasa on campus a5 ringed notebook.</p>
             <p>music: steady rotation between sony xm3s and airpod pros.</p>
           </div>
         </main>

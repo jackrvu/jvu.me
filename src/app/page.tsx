@@ -1,9 +1,7 @@
-import Link from 'next/link';
-import Header from '../components/header';
-import Pokemon from '../components/pokemon';
-import PostsList from '../components/postslist';
-import ProjectsList from '../components/projects';
-import { posts, getRecentPosts } from '../data/posts';
+import Header from '@/components/header';
+import Pokemon from '@/components/pokemon';
+import PostsList from '@/components/postslist';
+import { posts, getRecentPosts } from '@/data/posts';
 
 export default function HomePage() {
   return (

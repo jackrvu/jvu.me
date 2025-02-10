@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Header from '../../components/header';
-import PostsList from '../../components/postslist';
-import { posts, getRecentPosts } from '../../data/posts';
+import Header from '@/components/header';
+import PostsList from '@/components/postslist';
+import { posts, getRecentPosts } from '@/data/posts';
 
 export default function PostsPage() {
   return (

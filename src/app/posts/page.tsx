@@ -1,12 +1,12 @@
 import Link from 'next/link';
+import Header from '../../components/header';
+import PostsList from '../../components/postslist';
+import { posts, getRecentPosts } from '../../data/posts';
 
 export default function PostsPage() {
   return (
     <div className="no-select flex flex-col w-full h-full">
-      <header className="pl-0 pt-4 pb-4 mb-4 border border-black border-t-0 border-l-0 border-r-0">
-        <p className="text-base lg:text-lg font-semibold">enbao</p>
-        <p className="text-xs lg:text-sm">gradient stepper</p>
-      </header>
+      <Header />
       <div className="flex flex-grow text-3xs lg:text-2xs">
 
         <aside className="w-1/3 h-full mr-2">
@@ -25,25 +25,7 @@ export default function PostsPage() {
           <div className="border border-black p-2">
             <h2 className="font-semibold">All Posts</h2>
           </div>
-          <div className="mb-2 border border-black border-t-0 p-2">
-            <ul>
-              <li>
-                <Link href="/posts/intro" className="hover:text-green-400">
-                  25-02-09 :: my setups
-                </Link>
-              </li>
-              <li>
-                <Link href="/posts/intro" className="hover:text-green-400">
-                  25-00-00 :: two
-                </Link>
-              </li>
-              <li>
-                <Link href="/posts/intro" className="hover:text-green-400">
-                  25-00-00 :: three
-                </Link>
-              </li>
-            </ul>
-          </div>
+          <PostsList posts={posts} />
         </main>
       </div>
     </div>

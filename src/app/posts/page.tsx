@@ -5,7 +5,7 @@ export default function PostsPage() {
     <div className="no-select flex flex-col w-full h-full">
       <header className="pl-0 pt-4 pb-4 mb-4 border border-black border-t-0 border-l-0 border-r-0">
         <p className="text-base lg:text-lg font-semibold">enbao</p>
-        <p className="text-xs lg:text-sm">personal website.</p>
+        <p className="text-xs lg:text-sm">gradient stepper</p>
       </header>
       <div className="flex flex-grow text-3xs lg:text-2xs">
 
@@ -28,14 +28,20 @@ export default function PostsPage() {
           <div className="mb-2 border border-black border-t-0 p-2">
             <ul>
               <li>
-                <Link href="/posts/my-first-post" className="hover:text-fuchsia-400">
-                  24-08-04 :: My First Post
+                <Link href="/posts/intro" className="hover:text-green-400">
+                  25-02-09 :: my setups
                 </Link>
               </li>
-              <li>24-07-28 :: specs</li>
-              <li>24-07-23 :: dreams</li>
-              <li>24-07-23 :: proofs</li>
-              <li>24-07-14 :: battles</li>
+              <li>
+                <Link href="/posts/intro" className="hover:text-green-400">
+                  25-00-00 :: two
+                </Link>
+              </li>
+              <li>
+                <Link href="/posts/intro" className="hover:text-green-400">
+                  25-00-00 :: three
+                </Link>
+              </li>
             </ul>
           </div>
         </main>

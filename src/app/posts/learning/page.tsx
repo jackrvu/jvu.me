@@ -25,7 +25,7 @@ export default function Specs() {
             <h2 className="font-semibold">Learning</h2>
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
-            <p className="italic mb-4">some paragraphs I scribbled down in august 24.</p>
+            <p className="italic mb-4">some paragraphs I scribbled down in august of '24.</p>
             <p className="mb-4">Have you seen the world? Have you seen the incredible things you can do with just a computer, words, and turning shapes over in your mind? Have you seen how you can provide a service to others, something they didn't even know they wanted, and push a noticeable change into the world?</p>
             <p className="mb-4">The worst thing, the ultimate blocker to learning, is something, some course, some person, who explains things to you as if you don't have the capability to understand it yourself. Every person here should be imbued with the innate knowledge that they have the ability to learn and understand anything and everything. If you put the time in. If you devote yourself to it. If you ask the textbook questions and hunt for the answers. If you use the internet to help you on your search. If you find yourself thinking about the problem in the shower.</p>
             <p className="mb-4">The best motivator of learning is other people. Thankfully, the internet made finding a group of like-minded people that are excited to learn and build easier than ever. Find your community and grow alongside. When you step back and take a look at others around you, you'll be surprised by how much you've changed and grown.</p>

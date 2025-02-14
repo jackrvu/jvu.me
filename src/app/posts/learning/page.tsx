@@ -17,7 +17,6 @@ export default function Specs() {
               <li><Link href="/posts" className="hover:text-fuchsia-400">All Posts</Link></li>
             </ul>
           </div>
-          {/* You can keep other aside elements from the homepage if desired */}
         </aside>
 
         <main className="w-2/3 h-full">

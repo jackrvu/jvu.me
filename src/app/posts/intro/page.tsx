@@ -22,10 +22,10 @@ export default function Specs() {
 
         <main className="w-2/3 h-full">
           <div className="border border-black p-2">
-            <h2 className="font-semibold">Setups</h2>
+            <h2 className="font-semibold">The Stack</h2>
           </div>
           <div className="mb-2 border border-black border-t-0 p-2">
-            <p className="italic mb-4">my setups! how I work and focus and relax.</p>
+            <p className="italic mb-4">my stack! how I work and focus and relax.</p>
             <p>computer: m1 macbook. 1 lambda gh200 for heavy machinery.</p>
             <p>keeb: womier aluminum sk71 or the mac butterfly keyboard.</p>
             <p>math: blue bic pen on blank printer paper. classic combo.</p>

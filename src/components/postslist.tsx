@@ -8,21 +8,26 @@ type Post = {
 };
 
 type PostsListProps = {
-  posts: readonly Post[] | Post[];  // now accepts both readonly and regular arrays
+  posts: readonly Post[] | Post[];
 };
 
 export default function PostsList({ posts }: PostsListProps) {
   return (
-    <div className="mb-2 border border-black border-t-0 p-2">
-      <ul>
-        {posts.map((post) => (
-          <li key={post.slug}>
-            <Link href={`/posts/${post.slug}`} className="hover:text-green-400">
-              {post.date} :: {post.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <div className="mb-4 border border-black border-t-0 p-2">
+      {posts.length > 0 ? (
+        <ul className="space-y-1">
+          {posts.map((post) => (
+            <li key={post.slug} className="-mx-1 px-1 py-0.5 rounded">
+              <Link href={`/posts/${post.slug}`} className="flex flex-row items-center group">
+                <span className="text-gray-600 mr-3 text-xs inline-block">{post.date}</span>
+                <span className="group-hover:text-green-500 transition-colors duration-200 inline-block">{post.title}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-gray-500 italic">No posts available</p>
+      )}
     </div>
   );
 }

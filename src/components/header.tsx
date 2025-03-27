@@ -1,8 +1,20 @@
+import Link from 'next/link';
+
 export default function Header() {
-    return (
-      <header className="pl-0 pt-4 pb-4 mb-4 border border-black border-t-0 border-l-0 border-r-0">
-        <p className="text-base lg:text-lg font-semibold">enbao</p>
-        <p className="text-xs lg:text-sm">gradient stepper. generalist.</p>
-      </header>
-    );
-  }
+  return (
+    <header className="py-6 mb-6 border-b border-black">
+      <div className="flex flex-col md:flex-row md:items-end md:justify-between">
+        <div>
+          <h1 className="text-xl lg:text-2xl font-bold">enbao</h1>
+          <p className="text-xs lg:text-sm text-gray-700">gradient stepper. generalist.</p>
+        </div>
+        <nav className="mt-2 md:mt-0">
+          <ul className="flex space-x-4 text-sm">
+            <li><Link href="/" className="hover:text-indigo-500 transition-colors duration-200">home</Link></li>
+            <li><Link href="/posts" className="hover:text-indigo-500 transition-colors duration-200">posts</Link></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
+}

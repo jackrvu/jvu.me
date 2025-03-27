@@ -3,14 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add this to ensure black background */
+/* Base styles */
 html, body {
-  background-color: black;
+  background-color: white;
+  color: black;
   min-height: 100vh;
   margin: 0;
   padding: 0;
 }
 
+/* Custom width utility */
 .custom-width {
   width: 100%;
 }
@@ -25,4 +27,25 @@ html, body {
   .custom-width {
     width: 40%;
   }
+}
+
+/* Custom link hover effects */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Custom section styling */
+.section-card {
+  border: 1px solid black;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* No text selection utility */
+.no-select {
+  user-select: none;
 }

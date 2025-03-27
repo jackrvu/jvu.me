@@ -64,27 +64,28 @@ const projects: Project[] = [
 
 const ProjectsList: React.FC = () => {
     return (
-      <div className="space-y-2">
+      <div className="space-y-3">
         {projects.map((project, index) => (
           <div key={index} className="pb-2">
-            <div className="flex flex-wrap items-center gap-2">
-              <p>{project.name}</p>
-              <div className="flex space-x-1">
-                {project.links.github && (
-                  <a href={project.links.github} className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">[GitHub]</a>
-                )}
-                {project.links.site && (
-                  <a href={project.links.site} className="hover:text-purple-500" target="_blank" rel="noopener noreferrer">[Site]</a>
-                )}
-                {project.links.paper && (
-                  <a href={project.links.paper} className="hover:text-orange-500" target="_blank" rel="noopener noreferrer">[Paper]</a>
-                )}
-                {project.links.prezi && (
-                  <a href={project.links.prezi} className="hover:text-green-500" target="_blank" rel="noopener noreferrer">[Prezi]</a>
-                )}
-              </div>
+            <h3 className="text-3xs lg:text-2xs font-bold">{project.name}</h3>
+            <p className="text-3xs lg:text-2xs text-gray-600">{project.description}</p>
+            <div className="flex flex-wrap gap-2 text-3xs lg:text-2xs">
+              {project.links.github && (
+                <a href={project.links.github} className="text-blue-600 hover:text-blue-800 transition-colors duration-200" target="_blank" rel="noopener noreferrer">GitHub</a>
+              )}
+              {project.links.site && (
+                <a href={project.links.site} className="text-purple-600 hover:text-purple-800 transition-colors duration-200" target="_blank" rel="noopener noreferrer">Website</a>
+              )}
+              {project.links.paper && (
+                <a href={project.links.paper} className="text-orange-600 hover:text-orange-800 transition-colors duration-200" target="_blank" rel="noopener noreferrer">Paper</a>
+              )}
+              {project.links.prezi && (
+                <a href={project.links.prezi} className="text-green-600 hover:text-green-800 transition-colors duration-200" target="_blank" rel="noopener noreferrer">Prezi</a>
+              )}
+              {project.links.writeup && (
+                <a href={project.links.writeup} className="text-pink-600 hover:text-pink-800 transition-colors duration-200" target="_blank" rel="noopener noreferrer">Writeup</a>
+              )}
             </div>
-            <p className="text-gray-600 mt-1">{project.description}</p>
           </div>
         ))}
       </div>

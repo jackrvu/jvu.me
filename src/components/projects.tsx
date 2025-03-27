@@ -16,6 +16,46 @@ interface Project {
 // Your projects data
 const projects: Project[] = [
   {
+    name: "ccloth",
+    description: "a real-time cloth simulation implementation using position based dynamics (PBD), featuring wind forces, sphere collision, and stretch visualization. based on Müller et al.'s 2006 paper on PBD, done in raylib/c.",
+    links: {}
+  },
+  {
+    name: "opentuber",
+    description: "mediapipe-driven vtuber implementation with three.js and vrm models. basically open source and lightweight vtuber studio",
+    links: {}
+  },
+  {
+    name: "tensorviz",
+    description: "visualizing tensors in three.js, including tensor slicing, tensor-matrix products, tensor contraction, and tensor decomps (tucker and canonical-polyadic)",
+    links: {}
+  },
+  {
+    name: "pdeviz",
+    description: "visualizing pde solutions in raylib/c. currently only includes 2d wave, but expanding soon!",
+    links: {}
+  },
+  {
+    name: "design patterns",
+    description: "demos following through each pattern in the Gang of Four's Design Patterns",
+    links: {}
+  },
+  {
+    name: "medft",
+    description: "improving neural machine translation in the medical domain by supervised fine-tuning on a medical translation dataset",
+    links: {}
+  },
+  {
+    name: "road to grpo",
+    description: "implementing a progression of RL algorithms from scratch, starting w/ basic policy gradients, progressing onto PPO, actor-critic, and culminating in a GRPO implementation.",
+    links: {}
+  },
+  {
+    name: "complex analysis viz",
+    description: "some visualizations in raylib/c for a complex analysis course. made originally for conformal mappings, but extended to bilinear maps, domain coloring, and taylor/laurent vizs.",
+    links: {}
+  },
+  {
     name: "problem solving initiative (PSI)",
     description: "a gamified math problem solving platform.",
     links: { 
@@ -27,14 +67,6 @@ const projects: Project[] = [
     name: "metachronal propulsion",
     description: "a paper on the efficiency of metachronal movement. accepted to Fluids in dec 2023.",
     links: {
-      paper: "https://www.mdpi.com/2311-5521/9/1/2"
-    }
-  },
-  {
-    name: "cordgrass",
-    description: "a paper on the wave-reducing ability of cordgrass meadows. submitted to Sustainability in oct 2024.",
-    links: { 
-      github: "https://github.com/ecao77/cgrass",
       paper: "https://www.mdpi.com/2311-5521/9/1/2"
     }
   },

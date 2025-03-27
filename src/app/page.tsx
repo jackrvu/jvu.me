@@ -30,12 +30,15 @@ export default function HomePage() {
   // Main content
   const mainContent = (
     <>
+      {/* About Me section commented out
       <div className="border border-black p-2">
         <h2 className="font-semibold">About me</h2>
       </div>
       <div className="mb-4 border border-black border-t-0 p-2">
         <p className="tracking-very-tight">howdy!</p>
       </div>
+      */}
+      
       <div className="border border-black p-2">
         <h2 className="font-semibold">Blog</h2>
       </div>

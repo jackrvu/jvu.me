@@ -18,9 +18,9 @@ export default function PostsList({ posts }: PostsListProps) {
         <ul className="space-y-1">
           {posts.map((post) => (
             <li key={post.slug} className="-mx-1 px-1 py-0.5 rounded">
-              <Link href={`/posts/${post.slug}`} className="flex flex-row items-center group">
-                <span className="text-gray-600 mr-3 text-xs inline-block">{post.date}</span>
-                <span className="group-hover:text-green-500 transition-colors duration-200 inline-block">{post.title}</span>
+              <Link href={`/posts/${post.slug}`} className="flex flex-row items-baseline group">
+                <span className="text-gray-600 mr-3 text-xs">{post.date}</span>
+                <span className="group-hover:text-green-500 transition-colors duration-200">{post.title}</span>
               </Link>
             </li>
           ))}

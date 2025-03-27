@@ -16,13 +16,23 @@ interface Project {
 // Your projects data
 const projects: Project[] = [
   {
+    name: "road to grpo",
+    description: "implementing a progression of RL algorithms from scratch, starting w/ basic policy gradients, progressing onto PPO, actor-critic, and culminating in a GRPO implementation.",
+    links: {}
+  },
+  {
+    name: "medft",
+    description: "improving neural machine translation in the medical domain by supervised fine-tuning on a medical translation dataset",
+    links: {}
+  },
+  {
     name: "ccloth",
     description: "a real-time cloth simulation implementation using position based dynamics (PBD), featuring wind forces, sphere collision, and stretch visualization. based on Müller et al.'s 2006 paper on PBD, done in raylib/c.",
     links: {}
   },
   {
-    name: "opentuber",
-    description: "mediapipe-driven vtuber implementation with three.js and vrm models. basically open source and lightweight vtuber studio",
+    name: "complex analysis viz",
+    description: "some visualizations in raylib/c for a complex analysis course. made originally for conformal mappings, but extended to bilinear maps, domain coloring, and taylor/laurent vizs.",
     links: {}
   },
   {
@@ -36,24 +46,16 @@ const projects: Project[] = [
     links: {}
   },
   {
-    name: "design patterns",
-    description: "demos following through each pattern in the Gang of Four's Design Patterns",
+    name: "opentuber",
+    description: "mediapipe-driven vtuber implementation with three.js and vrm models. basically open source and lightweight vtuber studio",
     links: {}
   },
   {
-    name: "medft",
-    description: "improving neural machine translation in the medical domain by supervised fine-tuning on a medical translation dataset",
-    links: {}
-  },
-  {
-    name: "road to grpo",
-    description: "implementing a progression of RL algorithms from scratch, starting w/ basic policy gradients, progressing onto PPO, actor-critic, and culminating in a GRPO implementation.",
-    links: {}
-  },
-  {
-    name: "complex analysis viz",
-    description: "some visualizations in raylib/c for a complex analysis course. made originally for conformal mappings, but extended to bilinear maps, domain coloring, and taylor/laurent vizs.",
-    links: {}
+    name: "metachronal propulsion",
+    description: "a paper on the efficiency of metachronal movement. accepted to Fluids in dec 2023.",
+    links: {
+      paper: "https://www.mdpi.com/2311-5521/9/1/2"
+    }
   },
   {
     name: "problem solving initiative (PSI)",
@@ -61,13 +63,6 @@ const projects: Project[] = [
     links: { 
         github: "https://github.com/ecao77/psolving",
         site: "ecao77.github.io/psolving/"
-    }
-  },
-  {
-    name: "metachronal propulsion",
-    description: "a paper on the efficiency of metachronal movement. accepted to Fluids in dec 2023.",
-    links: {
-      paper: "https://www.mdpi.com/2311-5521/9/1/2"
     }
   },
   {

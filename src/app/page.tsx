@@ -12,7 +12,7 @@ export default function HomePage() {
         <h2 className="font-semibold">Status</h2>
       </div>
       <div className="mb-4 border border-black border-t-0 p-2 flex items-center gap-2">
-        pivoting! <Pokemon /> 
+        changing my mind
       </div>
       
       <div className="border border-black p-2">
@@ -20,8 +20,8 @@ export default function HomePage() {
       </div>
       <div className="mb-4 border border-black border-t-0 p-2">
         <ul className="space-y-1">
-          <li><a href="https://github.com/enbaocao" className="hover:text-fuchsia-400 transition-colors duration-200">github.com/enbaocao</a></li>
-          <li><a href="mailto:enbaocao@gmail.com" className="hover:text-indigo-400 transition-colors duration-200">enbaocao[at]gmail[dot]com</a></li>
+          <li><a href="https://github.com/jackrvu" className="hover:text-fuchsia-400 transition-colors duration-200">github.com/jackrvu</a></li>
+          <li><a href="mailto:jackrvu@gmail.com" className="hover:text-indigo-400 transition-colors duration-200">jackrvu[at]gmail[dot]com</a></li>
         </ul>
       </div>
     </>

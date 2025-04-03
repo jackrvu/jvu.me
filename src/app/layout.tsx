@@ -8,7 +8,7 @@ const mono = Azeret_Mono({
 })
 
 export const metadata = {
-  title: 'enbao.me',
+  title: 'jackrvu',
   description: 'status, links, visitors, about me, posts',
 }
 

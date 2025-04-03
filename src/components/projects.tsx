@@ -16,75 +16,59 @@ interface Project {
 // Your projects data
 const projects: Project[] = [
   {
-    name: "road to grpo",
-    description: "implementing a progression of RL algorithms from scratch, starting w/ basic policy gradients, progressing onto PPO, actor-critic, and culminating in a GRPO implementation.",
-    links: {}
-  },
-  {
-    name: "medft",
-    description: "improving neural machine translation in the medical domain by supervised fine-tuning on a medical translation dataset",
-    links: {}
-  },
-  {
-    name: "ccloth",
-    description: "a real-time cloth simulation implementation using position based dynamics (PBD), featuring wind forces, sphere collision, and stretch visualization. based on Müller et al.'s 2006 paper on PBD, done in raylib/c.",
-    links: {}
-  },
-  {
-    name: "complex analysis viz",
-    description: "some visualizations in raylib/c for a complex analysis course. made originally for conformal mappings, but extended to bilinear maps, domain coloring, and taylor/laurent vizs.",
-    links: {}
-  },
-  {
-    name: "tensorviz",
-    description: "visualizing tensors in three.js, including tensor slicing, tensor-matrix products, tensor contraction, and tensor decomps (tucker and canonical-polyadic)",
-    links: {}
-  },
-  {
-    name: "pdeviz",
-    description: "visualizing pde solutions in raylib/c. currently only includes 2d wave, but expanding soon!",
-    links: {}
-  },
-  {
-    name: "opentuber",
-    description: "mediapipe-driven vtuber implementation with three.js and vrm models. basically open source and lightweight vtuber studio",
-    links: {}
-  },
-  {
-    name: "metachronal propulsion",
-    description: "a paper on the efficiency of metachronal movement. accepted to Fluids in dec 2023.",
+    name: "mav hub ios app",
+    description: "school app that displays all schedule, club, and assignment information. 110k uses/mo.",
     links: {
-      paper: "https://www.mdpi.com/2311-5521/9/1/2"
+      site: "https://apps.apple.com/bf/app/mav-hub/id6670142459"
     }
-  },
-  {
-    name: "problem solving initiative (PSI)",
-    description: "a gamified math problem solving platform.",
-    links: { 
-        github: "https://github.com/ecao77/psolving",
-        site: "ecao77.github.io/psolving/"
-    }
-  },
-  {
-    name: "mav hub",
-    description: "school app that displays schedule, lunch menu, and house points. 110000+ uses/month.",
-    links: { 
-        github: "https://github.com/SMPhoenicx/The-Mav-Hub"
-    }
-  },
-  {
-    name: "pds projects",
-    description: "projects from my 11th grade Programming Data Structures (and Algorithms) class.",
-    links: { 
-        github: "https://github.com/ecao77/pds-projects"
-    }
-  },
-  {
-    name: "gradient descent",
-    description: "implementation and visualization of the gradient descent algorithm. presented in multivariable class and ross '24.",
+    },
+    {
+    name: "spanish dialect classifier",
+    description: "bag-of-words model trained on reddit posts from spanish-speaking countries",
     links: {
-        github: "https://github.com/Nobbertins/MVCFinal",
-        prezi: "https://fragrant-lake-8762.ecao787.workers.dev"
+      github: "https://github.com/jackrvu/clasificador-cervantes"
+    }
+    },
+    {
+    name: "python curriculum for elementary students",
+    description: "for use in a summer camp at mission milby in east houston.",
+    links: {
+      github: "https://github.com/jackrvu/python-easy"
+    }
+    },
+    {
+    name: "backwards citation search for company patents",
+    description: "scrapes u.s. patent office website to create a full citation ranking for company patents.",
+    links: {
+      github: "https://github.com/jackrvu/sweet-case"
+    }
+    },
+    {
+    name: "scrabble point-maxing algorithm w/ basic interface",
+    description: "implementation of 'The World's Fastest Scrabble Program' (appel, jacobson).",
+    links: {
+      github: "https://github.com/jackrvu/scrabble-maverick"
+    }
+    },
+    {
+    name: "bot for defeating the jklm bomb party game",
+    description: "algorithmic word generation w/ live html scraping, simulates inputs to site.",
+    links: {
+      github: "https://github.com/jackrvu/word-wizard"
+    }
+    },
+    {
+    name: "spanish-language digital literacy curriculum",
+    description: "for use in a course at the st. austin center in east houston.",
+    links: {
+      github: "https://github.com/jackrvu/the-digital-doorway"
+    }
+    },
+    {
+    name: "optimizing wordle play",
+    description: "min-max approach to word list reduction and effective guess selection.",
+    links: {
+      github: "https://github.com/jackrvu/min-wordle"
     }
   }
 ];
